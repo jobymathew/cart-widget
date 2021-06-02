@@ -2,7 +2,7 @@ import './styles.scss';
 
 const SaleItem = (props) => {
 
-    const { name, discount, imageURL, actualPrice, displayPrice} = props;
+    const { name, discount, imageURL, actualPrice, displayPrice } = props;
 
     return (
         <div className="box">

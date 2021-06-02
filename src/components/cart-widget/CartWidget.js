@@ -2,6 +2,7 @@
 import SaleItem from '../sale-item/SaleItem';
 import './styles.scss';
 import { cartItems } from '../../constants/cartItems';
+import CartItem from '../cart-item/CartItem';
 
 const lastItemName = "Samsung Series 4"
 
@@ -20,6 +21,21 @@ const items = cartItems.items.map((item, index) => {
         />
     )
 
+});
+
+const sample = cartItems.items.slice(0,2);
+
+
+const checkoutItems = sample.map((item, index) => {
+    return (
+        <CartItem
+        key={item.id}
+        name={item.name}
+        imageURL={item.image}
+        quantity={index+1}
+        price={item.price.actual}
+        />
+    )
 });
 
 const CartWidget = () => {
@@ -47,6 +63,9 @@ const CartWidget = () => {
                                 <div className="checkout-header-items-price">Price</div>
                             </div>
                         <div className="divider"></div>
+                    </div>
+                    <div className="checkout-content">
+                        {checkoutItems}
                     </div>
                 </div>
             </div>
