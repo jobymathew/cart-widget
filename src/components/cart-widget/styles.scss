@@ -1,0 +1,27 @@
+.wrapper {
+    margin: 40px 20px 10px 20px;
+}
+
+.divider {
+    background-color: silver;
+    border: 0.2px solid silver;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contents {
+    display: flex;
+    flex: 1;
+
+    &-allItems {
+        font-size: 25px;
+        margin-left: 10px;
+    }
+
+    &-addedToCart {
+        margin-left: 300px;
+        background-color: rgb(109, 218, 21);
+        color: white;
+        padding: 5px 15px 5px 15px;
+    }
+}
