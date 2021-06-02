@@ -1,4 +1,39 @@
 .cart-item {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+    &-details {
+
+        display: flex;
+        border: 0.2px solid silver;
+        padding: 5px 8px;
+
+        &-image {
+
+            margin-right: 4px;
+            
+            &-img {
+                height: 30px;
+                width: auto;
+            }
+            
+        }
+
+        &-name {
+            margin-right: 10px;
+            width: 150px;
+            max-width: 200px;
+        }
+
+    }
+
+    &-quantity {
+
+        padding: 0px 8px;
+        &-number {
+            padding: 0px 10px;
+            border: 0.2px solid silver;
+        }
+    }
 }

@@ -23,7 +23,7 @@ const items = cartItems.items.map((item, index) => {
 
 });
 
-const sample = cartItems.items.slice(0,2);
+const sample = cartItems.items.slice(3,5);
 
 
 const checkoutItems = sample.map((item, index) => {
