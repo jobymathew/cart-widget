@@ -25,3 +25,23 @@
         padding: 5px 15px 5px 15px;
     }
 }
+
+.cart-section {
+    display: flex;
+}
+
+.sale-items {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0.7;
+}
+
+.checkout {
+    flex: 0.3;
+
+    &-header-items {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+

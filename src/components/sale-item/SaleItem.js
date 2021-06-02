@@ -1,4 +1,4 @@
-
+import './styles.scss';
 
 const SaleItem = (props) => {
 
@@ -11,7 +11,7 @@ const SaleItem = (props) => {
                     {discount}% off
                 </div>
                 <div className="image-box-image">
-                    <img src={imageURL}></img>
+                    <img className="image-box-image-image" src={imageURL} />
                 </div>
             </div>
             <div className="item">
@@ -19,11 +19,13 @@ const SaleItem = (props) => {
                     {name}
                 </div>
                 <div className="item-details">
-                    <div className="item-details-acutal">
-                        {actualPrice}
-                    </div>
-                    <div className="item-details-discounted">
-                        {displayPrice}
+                    <div className="item-details-price">
+                        <div className="item-details-price-display">
+                            ${displayPrice}
+                        </div>
+                        <div className="item-details-price-actual">
+                            ${actualPrice}
+                        </div>
                     </div>
                     <div className="item-details-add">
                         Add to cart

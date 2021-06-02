@@ -1,6 +1,7 @@
 export const cartItems = {
     "items":[
        {
+          "id": 1,
           "name":"Samsung Series 4",
           "image":"https://rukminim1.flixcart.com/image/670/600/allinone-desktop/d/n/q/apple-imac-21-5-inch-4k-retina-core-i5-3-1ghz-8gb-1tb-intel-iris-original-imaeh5h83fuzbksz.jpeg?q=90",
           "price":{
@@ -10,6 +11,7 @@ export const cartItems = {
           "discount":37
        },
        {
+          "id": 2,
           "name":"Samsung Super 6",
           "image":"https://rukminim1.flixcart.com/image/670/600/allinone-desktop/d/n/q/apple-imac-21-5-inch-4k-retina-core-i5-3-1ghz-8gb-1tb-intel-iris-original-imaeh5h83fuzbksz.jpeg?q=90",
           "price":{
@@ -19,6 +21,7 @@ export const cartItems = {
           "discount":46
        },
        {
+          "id": 3,
           "name":"Samsung The Frame",
           "image":"https://rukminim1.flixcart.com/image/670/600/allinone-desktop/d/n/q/apple-imac-21-5-inch-4k-retina-core-i5-3-1ghz-8gb-1tb-intel-iris-original-imaeh5h83fuzbksz.jpeg?q=90",
           "price":{
@@ -28,6 +31,7 @@ export const cartItems = {
           "discount":36
        },
        {
+          "id": 4,
           "name":"Thomson B9 Pro",
           "image":"https://rukminim1.flixcart.com/image/670/600/allinone-desktop/d/n/q/apple-imac-21-5-inch-4k-retina-core-i5-3-1ghz-8gb-1tb-intel-iris-original-imaeh5h83fuzbksz.jpeg?q=90",
           "price":{
@@ -37,6 +41,7 @@ export const cartItems = {
           "discount":41
        },
        {
+          "id": 5,
           "name":"LG Ultra HD",
           "image":"https://rukminim1.flixcart.com/image/670/600/allinone-desktop/d/n/q/apple-imac-21-5-inch-4k-retina-core-i5-3-1ghz-8gb-1tb-intel-iris-original-imaeh5h83fuzbksz.jpeg?q=90",
           "price":{
@@ -46,6 +51,7 @@ export const cartItems = {
           "discount":50
        },
        {
+          "id": 6,
           "name":"Vu Ready LED TV",
           "image":"https://rukminim1.flixcart.com/image/670/600/allinone-desktop/d/n/q/apple-imac-21-5-inch-4k-retina-core-i5-3-1ghz-8gb-1tb-intel-iris-original-imaeh5h83fuzbksz.jpeg?q=90",
           "price":{
@@ -55,6 +61,7 @@ export const cartItems = {
           "discount":52
        },
        {
+          "id": 7,
           "name":"Koryo Android TV",
           "image":"https://rukminim1.flixcart.com/image/670/600/allinone-desktop/d/n/q/apple-imac-21-5-inch-4k-retina-core-i5-3-1ghz-8gb-1tb-intel-iris-original-imaeh5h83fuzbksz.jpeg?q=90",
           "price":{
@@ -64,6 +71,7 @@ export const cartItems = {
           "discount":71
        },
        {
+          "id": 8,
           "name":"Micromax LED Smart",
           "image":"https://rukminim1.flixcart.com/image/670/600/allinone-desktop/d/n/q/apple-imac-21-5-inch-4k-retina-core-i5-3-1ghz-8gb-1tb-intel-iris-original-imaeh5h83fuzbksz.jpeg?q=90",
           "price":{
