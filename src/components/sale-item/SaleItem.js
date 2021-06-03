@@ -2,7 +2,7 @@ import './styles.scss';
 
 const SaleItem = (props) => {
 
-    const { name, discount, imageURL, actualPrice, displayPrice } = props;
+    const { id, name, discount, imageURL, actualPrice, displayPrice, addItemToCart } = props;
 
     return (
         <div className="box">
@@ -27,7 +27,7 @@ const SaleItem = (props) => {
                             ${actualPrice}
                         </div>
                     </div>
-                    <div className="item-details-add">
+                    <div className="item-details-add" onClick={() => addItemToCart(id)}>
                         Add to cart
                     </div>
                 </div>

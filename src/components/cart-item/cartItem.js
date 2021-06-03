@@ -2,16 +2,18 @@ import './styles.scss';
 
 const Item = (props) => {
 
+    const { id, name, imageURL, removeItemFromCart } = props;
+
     return(
         <div className="cart-item-details">
             <div className="cart-item-details-image">
-                <img className="cart-item-details-image-img" src={props.imageURL} />
+                <img className="cart-item-details-image-img" src={imageURL} />
             </div>
             <div className="cart-item-details-name">
-                {props.name}
+                {name}
             </div>
             <div className="cart-item-details-remove">
-                <i class="fas fa-times"></i>
+                <i className="fas fa-times custom-remove" onClick={() => removeItemFromCart(id)}></i>
             </div>
         </div>
     )
@@ -19,20 +21,22 @@ const Item = (props) => {
 
 
 const CartItem = (props) => {
-    const { name, imageURL, quantity, price } = props;
+    const { id, name, imageURL, quantity, price, incrementQuantity, decrementQuantity, removeItemFromCart } = props;
+
+    const totalItemPrice = price*quantity;
 
     return(
         <div className="cart-item">
-            <Item name={name} imageURL={imageURL} /> 
+            <Item id={id} name={name} imageURL={imageURL} removeItemFromCart={removeItemFromCart} /> 
             <div className="cart-item-quantity">
-                <i class="fas fa-minus"></i> 
+                <i className="fas fa-minus custom-minus" onClick={() => decrementQuantity(id)}></i> 
                 <span className="cart-item-quantity-number">
                     {quantity}
                 </span> 
-                <i class="fas fa-plus"></i>
+                <i className="fas fa-plus custom-plus" onClick={() => incrementQuantity(id)}></i>
             </div>
             <div className="cart-item-price">
-                ${price}
+                ${totalItemPrice}
             </div>
         </div>
     );

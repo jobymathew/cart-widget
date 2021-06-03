@@ -42,6 +42,110 @@
     &-header-items {
         display: flex;
         justify-content: space-around;
+
+        &-name {
+            flex: 0.5;
+        }
+
+        &-qty {
+            flex: 0.3;
+            justify-content: center;
+            display: flex;
+        }
+
+        &-price {
+            flex: 0.2;
+            justify-content: center;
+            display: flex;
+        }
     }
+
+    &-price {
+        margin-top: 50px;
+        border: 0.2px solid silver;
+
+        &-header {
+            color: rgb(138, 130, 130);
+            font-weight: bold;
+            padding: 5px 0px 0px 10px;
+
+            
+        }
+
+        &-items {
+            display: flex;
+            padding: 5px 10px 10px 10px;
+
+            &-title {
+                flex:0.5;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            &-amount {
+                flex:0.5;   
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+
+        &-discount {
+            display: flex;
+            padding: 5px 10px 0px 10px;
+
+            &-title {
+                flex:0.5;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            &-amount {
+                flex:0.5;   
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+
+        &-type {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 10px 10px 10px;
+
+            &-title {
+                flex:0.5;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            &-amount {
+                flex:0.5;   
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+
+        &-total {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: rgb(231, 231, 231);
+
+            &-title {
+                flex:0.5;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            &-amount {
+                flex:0.5;   
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+    }
+}
+
+.custom-minus:hover, .custom-plus:hover, .custom-remove:hover {
+    cursor: pointer;
 }
 
