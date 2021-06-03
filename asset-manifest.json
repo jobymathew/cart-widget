@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/jobymathew.github.io/cart-widget/static/css/main.192ba0c1.chunk.css",
-    "main.js": "/jobymathew.github.io/cart-widget/static/js/main.a810cf0a.chunk.js",
-    "main.js.map": "/jobymathew.github.io/cart-widget/static/js/main.a810cf0a.chunk.js.map",
-    "runtime-main.js": "/jobymathew.github.io/cart-widget/static/js/runtime-main.4dcc62bd.js",
-    "runtime-main.js.map": "/jobymathew.github.io/cart-widget/static/js/runtime-main.4dcc62bd.js.map",
-    "static/js/2.f47ff7df.chunk.js": "/jobymathew.github.io/cart-widget/static/js/2.f47ff7df.chunk.js",
-    "static/js/2.f47ff7df.chunk.js.map": "/jobymathew.github.io/cart-widget/static/js/2.f47ff7df.chunk.js.map",
-    "static/js/3.82520b9f.chunk.js": "/jobymathew.github.io/cart-widget/static/js/3.82520b9f.chunk.js",
-    "static/js/3.82520b9f.chunk.js.map": "/jobymathew.github.io/cart-widget/static/js/3.82520b9f.chunk.js.map",
-    "index.html": "/jobymathew.github.io/cart-widget/index.html",
-    "static/css/main.192ba0c1.chunk.css.map": "/jobymathew.github.io/cart-widget/static/css/main.192ba0c1.chunk.css.map",
-    "static/js/2.f47ff7df.chunk.js.LICENSE.txt": "/jobymathew.github.io/cart-widget/static/js/2.f47ff7df.chunk.js.LICENSE.txt",
-    "static/media/Roboto-Black.2a428584.ttf": "/jobymathew.github.io/cart-widget/static/media/Roboto-Black.2a428584.ttf",
-    "static/media/index.css": "/jobymathew.github.io/cart-widget/static/media/Roboto-Light.8be2d148.ttf"
+    "main.css": "/cart-widget/static/css/main.d0e6a62d.chunk.css",
+    "main.js": "/cart-widget/static/js/main.a810cf0a.chunk.js",
+    "main.js.map": "/cart-widget/static/js/main.a810cf0a.chunk.js.map",
+    "runtime-main.js": "/cart-widget/static/js/runtime-main.acf1f50c.js",
+    "runtime-main.js.map": "/cart-widget/static/js/runtime-main.acf1f50c.js.map",
+    "static/js/2.f47ff7df.chunk.js": "/cart-widget/static/js/2.f47ff7df.chunk.js",
+    "static/js/2.f47ff7df.chunk.js.map": "/cart-widget/static/js/2.f47ff7df.chunk.js.map",
+    "static/js/3.82520b9f.chunk.js": "/cart-widget/static/js/3.82520b9f.chunk.js",
+    "static/js/3.82520b9f.chunk.js.map": "/cart-widget/static/js/3.82520b9f.chunk.js.map",
+    "index.html": "/cart-widget/index.html",
+    "static/css/main.d0e6a62d.chunk.css.map": "/cart-widget/static/css/main.d0e6a62d.chunk.css.map",
+    "static/js/2.f47ff7df.chunk.js.LICENSE.txt": "/cart-widget/static/js/2.f47ff7df.chunk.js.LICENSE.txt",
+    "static/media/Roboto-Black.2a428584.ttf": "/cart-widget/static/media/Roboto-Black.2a428584.ttf",
+    "static/media/index.css": "/cart-widget/static/media/Roboto-Light.8be2d148.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.4dcc62bd.js",
+    "static/js/runtime-main.acf1f50c.js",
     "static/js/2.f47ff7df.chunk.js",
-    "static/css/main.192ba0c1.chunk.css",
+    "static/css/main.d0e6a62d.chunk.css",
     "static/js/main.a810cf0a.chunk.js"
   ]
 }
