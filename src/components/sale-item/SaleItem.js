@@ -11,7 +11,7 @@ const SaleItem = (props) => {
                     {discount}% off
                 </div>
                 <div className="image-box-image">
-                    <img className="image-box-image-image" src={imageURL} />
+                    <img className="image-box-image-image" alt={name} src={imageURL} />
                 </div>
             </div>
             <div className="item">

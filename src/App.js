@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import CartWidget from './components/cart-widget/CartWidget';
 

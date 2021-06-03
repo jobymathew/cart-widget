@@ -6,15 +6,10 @@ import CartItem from '../cart-item/CartItem';
 import { useState } from 'react';
 
 
-const sample = cartItems.items.slice(3,5);
-
-
 const CartWidget = () => {
 
 
     const [ checkoutItems, setCheckoutItems ] = useState([]);
-
-    console.log(checkoutItems);
 
     // Reducer function to compute the total amount
     const computeTotalAmount = (accumulator, item) => accumulator + item.price.display*item.quantity;
@@ -63,7 +58,6 @@ const CartWidget = () => {
         const newCheckoutItems = checkoutItems.map((item) => {
             if(item.id === itemID) {
                 if(item.quantity-1 === 0) {
-                    console.log("removing");
                     removeItemFromCart(itemID);
                     updateCheckoutList = false; 
                 }
@@ -174,7 +168,7 @@ const CartWidget = () => {
                         </div>
 
                         <div className="checkout-price-items">
-                            <div className="checkout-price-items-title">
+                            <div className="checkout-price-items-title silver-color">
                                 <div>
                                     Items ({numberOfItems})
                                 </div>
@@ -183,13 +177,13 @@ const CartWidget = () => {
                                 </div>
                             </div>
                             
-                            <div className="checkout-price-items-amount">
+                            <div className="checkout-price-items-amount silver-color">
                                 ${totalAmount}
                             </div>
                         </div>
 
                         <div className="checkout-price-discount">
-                            <div className="checkout-price-discount-title">
+                            <div className="checkout-price-discount-title silver-color">
                                 <div>
                                     Discount
                                 </div>
@@ -197,13 +191,13 @@ const CartWidget = () => {
                                 :
                                 </div>
                             </div>
-                            <div className="checkout-price-discount-amount">
+                            <div className="checkout-price-discount-amount silver-color">
                                 -${totalDiscount}
                             </div>
                         </div>
 
                         <div className="checkout-price-type">
-                            <div className="checkout-price-type-title">
+                            <div className="checkout-price-type-title silver-color">
                                 <div>
                                     Type Discount
                                 </div>
@@ -211,13 +205,13 @@ const CartWidget = () => {
                                 :
                                 </div>
                             </div>
-                            <div className="checkout-price-type-amount">
+                            <div className="checkout-price-type-amount silver-color">
                                 -$0
                             </div>
                         </div>
 
                         <div className="checkout-price-total">
-                        <div className="checkout-price-total-title">
+                        <div className="checkout-price-total-title silver-color">
                                 <div>
                                     Order Total
                                 </div>
@@ -225,7 +219,7 @@ const CartWidget = () => {
                                 :
                                 </div>
                             </div>
-                            <div className="checkout-price-total-amount">
+                            <div className="checkout-price-total-amount silver-color">
                                 ${finalAmount}
                             </div>
                         </div>

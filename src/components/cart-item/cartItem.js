@@ -6,13 +6,13 @@ const Item = (props) => {
 
     return(
         <div className="cart-item-details">
-            <div className="cart-item-details-image">
-                <img className="cart-item-details-image-img" src={imageURL} />
+            <div className="cart-item-details-image center-align">
+                <img className="cart-item-details-image-img" alt={name} src={imageURL} />
             </div>
-            <div className="cart-item-details-name">
+            <div className="cart-item-details-name center-align">
                 {name}
             </div>
-            <div className="cart-item-details-remove">
+            <div className="cart-item-details-remove center-align">
                 <i className="fas fa-times custom-remove" onClick={() => removeItemFromCart(id)}></i>
             </div>
         </div>

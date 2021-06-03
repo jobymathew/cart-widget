@@ -7,6 +7,7 @@
         flex: 0.2;
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     &-details {
@@ -29,8 +30,8 @@
 
         &-name {
             margin-right: 10px;
-            width: 150px;
             max-width: 200px;
+            flex: 1;
         }
 
     }
@@ -51,4 +52,9 @@
             margin: 0px 10px;
         }
     }
+}
+
+.center-align {
+    display: flex;
+    align-items: center;
 }

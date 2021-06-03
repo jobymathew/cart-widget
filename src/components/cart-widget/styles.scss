@@ -11,15 +11,20 @@
 
 .contents {
     display: flex;
-    flex: 1;
+
+    // break point
+    @media (max-width: 650px) {
+        flex-direction: column;
+    }
 
     &-allItems {
+        flex: 0.4;
         font-size: 25px;
         margin-left: 10px;
+        font-weight: 700;
     }
 
     &-addedToCart {
-        margin-left: 300px;
         background-color: rgb(109, 218, 21);
         color: white;
         padding: 5px 15px 5px 15px;
@@ -28,6 +33,11 @@
 
 .cart-section {
     display: flex;
+
+    // break point
+    @media (max-width: 650px) {
+        flex-direction: column;
+    }
 }
 
 .sale-items {
@@ -147,5 +157,9 @@
 
 .custom-minus:hover, .custom-plus:hover, .custom-remove:hover {
     cursor: pointer;
+}
+
+.silver-color {
+    color: #8a8282;
 }
 

@@ -3,10 +3,19 @@
     width: 33.33%;
     max-width: 300px;
     margin: 10px;
+
+    // break point
+    @media (max-width: 1300px) {
+        width: 50%;
+    }
+  
+    @media (max-width: 900px) {
+        width: 100%;
+    }
 }
 
 .image-box {
-    margin-top: 20px;
+    margin: 20px 0px;
     display: flex;
 
     &-discount {
